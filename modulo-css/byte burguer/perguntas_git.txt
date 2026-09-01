@@ -1,0 +1,11 @@
+ Pergunta
+
+Por que seria pior fazer:
+
+```text
+Adiciona produto, muda cor, corrige botão, altera título e outras coisas
+```
+
+tudo dentro do mesmo commit?
+
+Porque ficaria embaraçoso pra futuramente corrigir
