@@ -71,6 +71,111 @@ console.log("consumo medio:" + " " + consumoMedio + " " + "km/L")
 
 
 
+
 //questao 7
-const valorCombustivel = 1.250.000
-const 
+const valorCombustivel = 1250000;
+const custoEquipe = 480000;
+const custoequipamento = 920000;
+const custoAlimentaçao = 75000;
+
+
+const custoTotal = valorCombustivel + custoEquipe + custoequipamento + custoAlimentaçao;
+
+console.log();
+
+
+
+
+//questao 8
+const patrocinadores = 5;
+const valorPatrocinador = 2725000 / patrocinador;
+
+console.log("valor por patrocinador", valorPatrocinador);
+
+
+
+//questao 9
+const percentualReserva = 12;
+const custoTotal = 2725000;
+
+const valorReserva = custoTotal * percentualReserva / 100;
+const custoFinal = custoTotal + valorReserva;
+
+console.log("reserva de segurança: R$", valorReserva);
+console.log("custo final: R$ ", custoFinal);
+
+
+
+//questao 10
+const patrocinadores = 5;
+const valorPatrocinador = 3052000 / patrocinador;
+
+console.log("Novo valor por patrocinador", valorPatrocinador);
+
+
+//questao 11
+console.log("10 minutos correspondem a", 10 * 60, "segundos");
+
+
+
+//questao 12
+const tempoEnviarNave = 8;
+const tempoCentralReceber = 8;
+
+const tempoTotalMensagem = tempoEnviarNave + tempoCentralReceber;
+
+console.log("minutos", tempoTotalMensagem);
+console.log("segundos", tempoTotalMensagem / 60);
+
+
+//questao 13
+const tripulantes = "4"
+const novosTripulantes = 2;
+
+console.log(tripulantes + novosTripulantes);
+
+
+
+//questao 14
+let codigoDeAcesso;
+
+console.log(codigoDeAcesso);
+console.log(typeof codigoDeAcesso);
+
+
+
+//questao 15
+const cargaUtilizada = 4250 + 1850 + 3100 + 950;
+const capacidade = 12000;
+
+const capacidaDeSobra = capacidade - cargaUtilizada;
+
+console.log("Carga utilizada", cargaUtilizada, "kg");
+console.log("Capacidade restante:", capacidaDeSobra, "kg");
+
+
+
+
+//questao 16
+const pacotes = 127;
+const capacidaDeCaixa = 10;
+
+const pacotesRestante = pacotes % capacidaDeCaixa;
+const caixasCompletas = (pacotes - pacotesRestante) / capacidaDeCaixa;
+
+console.log("pacotes restantes", pacotesRestantes);
+console.log("caixas completas:", caixasCompletas);
+
+
+
+
+//questao 17
+const tripulantes = 4;
+const aguaPorDia = 3;
+const diasMissao = 16;
+const aguaDisponivel = 220;
+
+const consumoPorPessoa = aguaPorDia * diasMissao;
+
+const consumoTotal = consumoPorPessoa * tripulantes;
+
