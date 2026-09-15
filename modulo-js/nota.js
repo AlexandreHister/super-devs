@@ -24,7 +24,7 @@ const distanciaAteEstacao = 384000;
 
 console.log(distancia * 2); //768000
 
-console.log("Distância total da missão:" + " "+ distancia * 2 + " " + "km");
+console.log("Distância total da missão:" + " " + distancia * 2 + " " + "km");
 
 
 //questao 4
@@ -52,9 +52,9 @@ console.log(ida + volta)
 console.log(combustivel - utilizado)
 //sobrou 15000
 
-console.log("Combustível inicial:"+ " " + combustivel + " " + "litros")
-console.log("Combustível utilizado:"+ " " + utilizado + " " + "litros")
-console.log("Combustível restante:"+ " " + restante + " " + "litros")
+console.log("Combustível inicial:" + " " + combustivel + " " + "litros")
+console.log("Combustível utilizado:" + " " + utilizado + " " + "litros")
+console.log("Combustível restante:" + " " + restante + " " + "litros")
 //Combustível inicial: 50000 litros
 // Combustível utilizado: 35000 litros
 // Combustível restante: 15000 litros
