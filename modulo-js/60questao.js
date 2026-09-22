@@ -248,3 +248,31 @@ else if(temperatura >= 20 && temperatura <= 29){
 else if (temperatura <= 30){
     console.log("Ta quente")
 }
+
+
+//14
+
+const a = 5;
+const b = 7;
+const c = 8;
+
+if(a + b >c && a + c > b && b + c > a){
+    console.log("é um triangulo");
+}
+
+//Chefao
+
+const salario = 5000;
+const valorEmprestimo = 20000;
+const parcelas = 24;
+const possuiDividas = false;
+
+valorParcela = valorEmprestimo / parcelas;
+parcelaLimite = parcela < salario * 30 /100;
+
+if(possuiDividas === false && parcelaLimite && salario < salario * 10) {
+    console.log("Emprestimo aprovado")
+}
+else {
+    console.log("emprestimo negado")
+}
