@@ -26,7 +26,7 @@ for (let i = 0; i < palavra.length; i++) {
     }
 }
 
-let palavra = "javascript";
+// let palavra = "javascript";
 let invertida = "";
 
 for (let i = palavra.length - 1; i >= 0; i--) {
