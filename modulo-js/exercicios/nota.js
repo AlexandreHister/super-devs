@@ -1,4 +1,4 @@
-//questao 1
+/* //questao 1
 const nomeMissao = "SuperDev";
 const destino = "Alpha";
 const numeroTripulantes = 4;
@@ -179,3 +179,4 @@ const consumoPorPessoa = aguaPorDia * diasMissao;
 
 const consumoTotal = consumoPorPessoa * tripulantes;
 
+ */

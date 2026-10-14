@@ -93,3 +93,19 @@
     console.log(desenho);
 } 
 
+for (let linha = 1; linha <= 7; linha++) {
+    let desenho = ""; 
+
+for (let coluna = 1; coluna <= 7; coluna++) {
+    if (linha <= 3) {
+        if ( coluna === 2 || coluna === 6) {
+            desenho += "*";
+        }
+    }  
+    else {
+        desenho += " ";
+    }
+}
+
+
+
